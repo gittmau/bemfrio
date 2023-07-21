@@ -76,7 +76,7 @@ function cacaPalavra(){
 
     if(validaPalavra == true){
         
-       	window.location.href ='https://bemfrio.com/?s=manuten%C3%A7%C3%A3o+ar+condicionado'
+       	window.location.href ='info.html'
     }  
 
     else{

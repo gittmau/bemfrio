@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Página em desenvolvimento</title>
+
+	<style>
+
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+		*{margin: 0;padding: 0}
+
+		body{position: relative;background: #18B3ED}
+
+		#modal{width: 100vw;height: 100vh;background:rgba(0, 0, 0, 0.3);position: absolute;font-family:'Poppins', sans-serif;}		
+
+		#conteudo-modal p,small{font-family: 'Roboto Thin',sans-serif;}
+
+		#conteudo-modal{max-width:800px;height:100vh;display:flex;flex-direction: column;align-items: center;justify-content: center;margin: auto;color: #fff;opacity: 0.8;text-align: center;}
+
+		#btn-voltar{display: block;width: 150px;padding: 10px;margin: 25px auto;background: #fff;color:#011B21;text-align: center;text-decoration: none;border-radius: 25px;font-family: 'Roboto Thin' ,sans-serif;box-shadow: 2px 3px 5px #000}
+
+		#btn-voltar:hover{background: #02202D;color: #fff;box-shadow: 2px 3px 5px #ddd}
+
+
+		@media(min-width:915px){
+
+			#conteudo-modal h1{font-size: 3rem}
+		}
+	</style>
+</head>
+<body>
+
+	<main id="modal">
+
+		<div id="conteudo-modal">
+
+			<h1>Olá, seja bem vindo!</h1>
+			<p>Estamos trabalhando nesta página!</p>
+			<small>Voltaremos logo.</small>
+
+			<a href="index.html" id="btn-voltar"> VOLTAR </a>
+
+		</div>
+	</main>
+	
+</body>
+</html>
