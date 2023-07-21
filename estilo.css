@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.material-symbols-outlined {font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 48}
+
+*{margin: 0;padding: 0;box-sizing: border-box;font-family:  'Poppins', sans-serif;}
+
+body{background:}
+
+html{scroll-behavior: smooth;}
+
+li{list-style: none;}
+
+a{text-decoration: none;}
+
+main{}
+
+#topo{width: 100%;background: #ffff;position: fixed;top: 0;z-index:2}
+
+#box-logo,#box-logo-2{max-width:100%;height: 60px;background:;font-family: sans-serif;font-weight:600;font-size: 1.5rem;line-height:60px;margin:0px 20px}
+
+#box-logo-2{width:80%;margin:150px auto;text-align: center;}
+
+
+#box-logo img{width:8%}
+#box-logo-2 img{width:10%}
+
+
+#pesquisa{width:;height:90px;background:#ddd;display: flex;align-items: center;justify-content: center;}
+
+#pesquisa > input{border: none;padding: 5px 10px;border-radius:25px;border: 1px solid #ccc;outline-color: #888}
+
+.menu{visibility: hidden;width: 100%;opacity: 0}
+.menu ul{position: absolute;width:70%;height:100vh;background:#fff;top:0;z-index:;opacity: 1;}
+.menu li{color: #333;padding:0px 20px;line-height:1;margin-top:45px;font-size:1rem;}
+.menu a{color: #333}
+
+#btnMenu{position: absolute;right: 0;top: 0;margin:15px;font-size: 2em;cursor: pointer;z-index: 0;}
+
+
+#btn-fechar{display: block;position: absolute;right: 0;top:0;margin-right: -18%;background:#5AB1FA;text-align: center;padding:15px;cursor: pointer;color:#f4f4f4;font-size:1em;font-family: 'Roboto thin',sans-serif;}
+
+#filtro{max-width: 100%;height: 450px;background: rgba(0, 0, 0,0.7);display: flex;flex-direction: column;justify-content: center;align-items: center;}
+
+#capa{max-width: 100%;height: 450px;background-image: url('capa2.jpg');background-size: cover;background-position:center;margin-top:150px;}
+
+#titulo-capa{opacity: 0.5}
+
+#texto-capa{max-width:900px;height:230px;background:;display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;color: #fff;padding: 10px;}
+
+#botao-capa a{display: block;width:150px;padding:10px;border: none;background: #5AB1FA;text-align: center;border-radius: 25px;color: #fff;font-size: 0.9em;font-weight: bold;}
+
+.equipe{margin: 50px 0px}
+
+/*Seção 1---------------------------*/
+
+.divisa{width:35%;margin:50px auto;border:2px solid #B6EBFD}
+
+article{text-align: center;margin:50px auto;margin-bottom: 50px;padding:0px 15px;color: #333}
+
+article p {color: #888}
+
+
+#secao-1{width:100%;margin:50px auto;}
+
+.boxSecao-1{width:95%;margin: auto;background:#B6EBFD;padding:15px;}
+
+.boxSecao-1 h3{color:#011F24;margin: 20px 0px;border-bottom: 1px solid #fff;}
+
+.secao1-img{padding: 0;background: #fff}
+
+.secao1-img img{width:100%;}
+
+
+#especialidades{width:95%;margin:50px auto;background: #f4f4f4}
+
+.box-especialidade{width:100%;height:;margin: 10px auto;padding: 10px}
+
+.box-especialidade img{width: 100%}
+
+
+
+/*Divisão--------------------*/
+
+#img-divisa{width:90%;height:250px;margin: auto;}
+
+#img-divisa img{width: 100%;height: 100%}
+
+
+/*Carrossel-------------------------*/
+
+
+#especialidades{position: relative;max-width:650px;margin:50px auto;padding: 15px;}
+
+.galery img{width:200px}
+
+#overfloww{display: flex;flex-flow: row nowrap;gap:5px;overflow-x:auto }
+
+::-webkit-scrollbar{height:px}
+
+::-webkit-scrollbar-thumb{background:linear-gradient(to right,#EC6E6E,#ABC8F8);border-radius: 10px}
+
+
+footer{width: 100%;height:700px;background: #eee;padding:25px 0px}
+
+.conteudo-footer h3{color: #333;}
+
+.conteudo-footer{width:95%;margin:50px auto;padding:5px}
+
+.box-logo{text-align: center;line-height: 2}
+
+.box-logo img{width:10%}
+
+.box-social,.box-pag{text-align: center;}
+
+.box-social img{width:15%;}
+
+.box-pag{background:}
+
+.box-pag img{width:20%;}
+
+#autor{padding: 5px}
+
+#autor p{text-align: center;font-size: 0.8rem;font-weight: bold;color: #444}
+
+
+
+
+
+
+
+
